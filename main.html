@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Billy the Cat</title>
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+
+        main {
+            text-align: center;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+        }
+
+        section:nth-child(odd) {
+            background-color: rgb(21, 84, 156);
+        }
+
+        section:nth-child(even) {
+            background-color: rgb(19, 158, 52);
+        }
+
+        h1 {
+            max-width: 700px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section data-aos="fade-up">
+            <h1>Billy the orange cat crept through the grass, eyes locked on a little blue bird.</h1>
+        </section>
+        <section data-aos="fade-right">
+            <h1>He crouched low, tail twitching, ready to pounce.</h1>
+        </section>
+        <section data-aos="flip-up">
+            <h1>With one mighty leap, he soared through the air...</h1>
+        </section>
+        <section data-aos="fade-left">
+            <h1>but the bird flapped its wings and flew away just in time.</h1>
+        </section>
+        <section data-aos="zoom-in">
+            <h1>Billy couldn’t stop and crashed straight into a tree.</h1>
+        </section>
+        <section data-aos="fade-up" data-aos-duration="2000">
+            <h1>Dazed, he got up and decided hunting could wait till tomorrow.</h1>
+        </section>
+    </main>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
